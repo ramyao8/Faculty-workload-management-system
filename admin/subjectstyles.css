@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Link Styles */
+.button-link {
+    display: inline-block; /* Allows padding and margin */
+    padding: 10px 20px; /* Space inside the button */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    border: none; /* No border */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+/* Hover Effect for Button Link */
+.button-link:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Active Effect for Button Link */
+.button-link:active {
+    transform: scale(0.95); /* Slightly shrink the button when clicked */
+}

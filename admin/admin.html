@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>admin dashboard</title>
+        <link rel="stylesheet" href="adminstyle.css"
+    </head>
+    <body>
+        <div class="header-image">
+            <img src="https://sves.org.in/ecap/collegeimages/title_head.jpg" width="1500">
+        </div>
+        <div class="topbar">
+            <div class="dashboard-title">Admin Dashboard</div>
+            <button onclick="logout()" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#" onclick="showSection('manageFaculty')"><i class="fas fa-chalkboard-teacher"></i> Manage Faculty</a></li>
+                <li><a href="#" onclick="showSection('manageSubjects')"><i class="fas fa-book"></i> Manage Subjects</a></li>
+                <li><a href="#" onclick="showSection('manageTimetable')"><i class="fas fa-calendar-alt"></i> Manage Timetable</a></li>
+                <li><a href="#" onclick="showSection('addAdmin')"><i class="fas fa-user-plus"></i> Add Admin</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
