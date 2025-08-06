@@ -105,12 +105,7 @@ if (!$conn) {
 ?>
 Run the Project
 
-Navigate to:
 
-arduino
-Copy
-Edit
-http://localhost/timetable-management/admin_dashboard.php
 **📸 Screenshots**
 **Admin Dashboard**
 <img width="1919" height="996" alt="image" src="https://github.com/user-attachments/assets/8ebb69e8-7acf-44f7-a9e0-6fb35bf3cc3d" />
