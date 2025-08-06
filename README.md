@@ -2,7 +2,7 @@
 
 A web-based system built with PHP and MySQL that allows administrators to manage faculty members, subjects, and class timetables. Faculty members can log in to view their assigned schedules.
 
-#💡 Why This Project?
+## 💡 Why This Project?
 Managing faculty schedules manually in educational institutions is time-consuming, error-prone, and inefficient. This project aims to digitize and simplify the process of creating, managing, and viewing academic timetables for faculty members.
 
 ✅ Problems It Solves
